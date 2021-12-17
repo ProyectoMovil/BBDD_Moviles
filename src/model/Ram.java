@@ -1,6 +1,6 @@
 package model;
 
-public class RAM {
+public class Ram {
 
 	private int gigaBytes;
 	private final String gB = " GB";
@@ -9,7 +9,7 @@ public class RAM {
 		return gigaBytes;
 	}
 
-	public RAM(int core) {
+	public Ram(int core) {
 		this.gigaBytes = calculateCapacity(core);
 	}
 
