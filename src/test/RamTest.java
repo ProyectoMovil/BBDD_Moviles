@@ -2,13 +2,13 @@ package test;
 
 import org.junit.jupiter.api.Test;
 
-import model.RAM;
+import model.Ram;
 
-class RAMTest {
+class RamTest {
 
 	@Test
 	void test() {
-		RAM ram = new RAM(2);
+		Ram ram = new Ram(2);
 		System.out.println(ram.getCapacity());
 	}
 }
